@@ -10,6 +10,7 @@ import aiohttp
 
 async def web():
     async with aiohttp.ClientSession() as session:
+        # Put your webhook url
         url = ""
         webhook = discord.Webhook.from_url(url=url, session=session)
         await webhook.send("hi")
@@ -25,6 +26,7 @@ async def test(ctx):
 
 async def web(ctx):
     async with aiohttp.ClientSession() as session:
+        # Put your webhook url
         url = ""
         webhook = discord.Webhook.from_url(url=url, session=session)
         # Set your embed how you want
