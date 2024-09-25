@@ -20,3 +20,19 @@ async def web(ctx):
         embed.set_author(name=f"{bot.user.name}", icon_url=bot.user.avatar.url, url=bot.user.avatar.url)
         await webhook.send(embed=embed)
         
+        
+@bot.event
+async def on_message(message: discord.Message):
+    if message.embeds:
+        for embed in message.embeds:
+            if embed:
+                await web(embed)
+                
+    await bot.process_commands(message)
+    
+async def web(embed):
+    async with aiohttp.ClientSession() as session:
+        url = ""
+        webhook = discord.Webhook.from_url(url=url, session=session)
+        copy = embed.copy()
+        await webhook.send(embed=copy)
