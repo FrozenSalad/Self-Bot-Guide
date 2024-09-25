@@ -2,7 +2,7 @@
 
 ## Introduction
 
-My very own documentation for beginners trying to learn about self botting, as said in the title, this is a beginner ground so it doesn't cover anything that isn't directly correlated to discord.py-self
+My very own documentation for beginners trying to learn about self botting, as said in the title, this is a beginner ground so it doesn't cover everything in the library nor anything that isn't directly correlated to discord.py-self
 
 - **Discord Self-Bots are indeed against TOS, it may risk your account getting banned**
     - *I am not responsible if you're account gets banned, please don't come after me if it does please :3*
@@ -11,7 +11,9 @@ My very own documentation for beginners trying to learn about self botting, as s
     - *In terms of classes, attributes types that are **bools**, **str**, or **int** are skipped due to their simplicity*
 
 
-*Python is probably one of the closest programming languages to English, and discord.py-self has the best of it, so it's much easier to decipher from an understanding standpoint*
+*Python is probably one of the closest programming languages to English, and discord.py-self has the best of it, so it's much easier to decipher from an understanding standpoint* <br>
+<br>
+**Keep in mind, if you try to run some of the code, it won't always work since they are examples**
 
 ## Starting your first bot
 
