@@ -23,6 +23,7 @@ async def test(ctx: commands.Context):
     try:
         response = await bot.wait_for('message', timeout=60, check=check) #timeout in seconds
     
+    # In case of a timeout
     except asyncio.TimeoutError:
         await ctx.send("Timed Out")
         return
@@ -76,6 +77,7 @@ async def test(ctx: commands.Context):
         return
     
     print(f"Message Content Before: {edit.before.content}")
+    
     
     
     

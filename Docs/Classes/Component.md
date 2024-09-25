@@ -2,7 +2,11 @@
 
 ### Intro
 
-The component class let's you interact with interactions from the api including Buttons, Modals, Drop Down/Select menus, etc.
+The component class let's you interact with interactions from the api including Buttons, Modals, Drop Down/Select menus, etc. <br>
+#### **Attributes Used**:
+
+message.channel **||** message.author **||** message.components **||** components.action_row **||** action_row.children **||** discord.Button **/** action_row.children **-->** button.click() **/** button.label **||** message.id **||** discord.SelectMenu **/** action_row.children **-->** menu **-->** menu.choose **/** menu.options **||** menu.options **-->** option.label **||** modal.components **||** discord.TextInput **/** action_row.children **-->** input.label **/** input.answer **||** modal.submit()
+
 
 ## Functions
 

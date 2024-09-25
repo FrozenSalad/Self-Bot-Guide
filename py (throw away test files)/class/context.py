@@ -30,7 +30,7 @@ async def test(ctx: commands.Context):
         #You can use the message class based off the history of the channel, you can loop this in a loop if you want to make like a watchdog
         #This is essentially for if you don't want to use a wait_for or on_message event
         #Works the exact same but instead you're checking for history and you set how many msgs it can see at once while also changing it's speed of checking
-        print()
+        print("hi")
     
     
     
