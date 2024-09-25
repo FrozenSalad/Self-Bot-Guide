@@ -2,7 +2,7 @@
 
 ### Intro
 An event that actively listens for messages under the message class <br>
-**Extremely Important: If you have a command and on_message in the same script you need to include *await bot.process_commands(message)**
+**Extremely Important: If you have a command and on_message in the same script you need to include *await bot.process_commands(message)***
 ```py
 @bot.command()
 async def ping(ctx):
