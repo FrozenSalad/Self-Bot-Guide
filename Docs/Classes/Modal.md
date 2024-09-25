@@ -37,7 +37,7 @@ async def on_modal(modal: discord.Modal):
                             await textinput.answer(answer)
                             #Submit the modal
                             await modal.submit()
-
+                #If more than one text box
                 for action_row in modal.components:
                     for input in action_row.children:
                         if isinstance(input, discord.TextInput):
@@ -49,7 +49,7 @@ async def on_modal(modal: discord.Modal):
                         
                         await modal.submit()
 
-
+                    #For selection menus in modals
                     for menu in action_row.children:
                         if isinstance(menu, discord.SelectMenu):
                             for option in menu.options:
