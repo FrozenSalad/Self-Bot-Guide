@@ -15,19 +15,19 @@ My very own documentation for beginners trying to learn about self botting, as s
 
 ## Starting your first bot
 
-**[Getting a bot up and running]()**
+**[Getting a bot up and running](https://github.com/FrozenSalad/Discord-Self-Bot-Docs/blob/main/Docs/Classes/Bot.md)**
 
 ## Classes
 
-**[discord.Message]()** <br>
-**[discord.Conetxt]()** <br>
-**[discord.Component]()** <br>
-**[discord.Modal]()**
+**[discord.Message](https://github.com/FrozenSalad/Discord-Self-Bot-Docs/blob/main/Docs/Classes/Message.md)** <br>
+**[discord.Conetxt](https://github.com/FrozenSalad/Discord-Self-Bot-Docs/blob/main/Docs/Classes/Context.md)** <br>
+**[discord.Component](https://github.com/FrozenSalad/Discord-Self-Bot-Docs/blob/main/Docs/Classes/Component.md)** <br>
+**[discord.Modal](Docs/Classes/Modal.md)**
 
 ## Events
 
-**[on_message]()** <br>
-**[on_message_edit]()** <br>
-**[on_modal]()** <br>
-**[on_ready]()** <br>
-**[wait_for]()**
+**[on_message](https://github.com/FrozenSalad/Discord-Self-Bot-Docs/blob/main/Docs/Events/On_message.md)** <br>
+**[on_message_edit](https://github.com/FrozenSalad/Discord-Self-Bot-Docs/blob/main/Docs/Events/On_message_edit.md)** <br>
+**[on_modal](https://github.com/FrozenSalad/Discord-Self-Bot-Docs/blob/main/Docs/Events/On_modal.md)** <br>
+**[on_ready](https://github.com/FrozenSalad/Discord-Self-Bot-Docs/blob/main/Docs/Events/On_ready.md)** <br>
+**[bot/client.wait_for](https://github.com/FrozenSalad/Discord-Self-Bot-Docs/blob/main/Docs/Events/Wait_for.md)**
