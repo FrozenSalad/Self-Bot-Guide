@@ -50,6 +50,14 @@ if message.channel.id == channel_id:
         for embed in message.embeds:
             if embed.title and 'Hello!' in embed.title.lower():
                 await message.channel.send("Hi!")
+
+
+# Wanna just log the embed's attributes?
+if message.channel.id == channel_id:
+    if message.embeds:
+        for embed in message.embeds:
+            if embed:
+                print(f'{embed.author}\n{embed.title}\n{embed.description}\n{embed.footer.text}')
                 
 
 #Let's say you want to get the image or thumbnail url
