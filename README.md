@@ -36,3 +36,4 @@ My very own documentation for beginners trying to learn about self botting, as s
 
 ## Misc
 **[Webhooks](Docs/Misc/Webhooks.md)**
+**[Asyncio](Docs/Misc/Asyncio.md)**
