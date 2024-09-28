@@ -35,5 +35,5 @@ My very own documentation for beginners trying to learn about self botting, as s
 **[bot/client.wait_for](Docs/Events/Wait_for.md)**
 
 ## Misc
-**[Webhooks](Docs/Misc/Webhooks.md)**
+**[Webhooks](Docs/Misc/Webhooks.md)** <br>
 **[Asyncio](Docs/Misc/Asyncio.md)**
