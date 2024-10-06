@@ -37,3 +37,7 @@ My very own documentation for beginners trying to learn about self botting, as s
 ## Misc
 **[Webhooks](Docs/Misc/Webhooks.md)** <br>
 **[Asyncio](Docs/Misc/Asyncio.md)**
+
+## Script Examples
+**This is for reference, these do work if you run them, not my problem if they stop working all of a sudden**
+### **[Examples](/Script%20Examples/examples.md)**
