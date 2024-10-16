@@ -138,6 +138,9 @@ async def snipelist(ctx: commands.Context) -> None:
     await ctx.reply("\n".join(messages))
     
 
+@bot.command(name='setpfp', aliases=['set_pfp', 'set-pfp'])
+    
+
 @bot.command(name='logout')
 async def logout(ctx: commands.Context):
     await ctx.send('Closing Script')
