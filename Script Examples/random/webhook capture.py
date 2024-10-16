@@ -1,5 +1,5 @@
 # This is for when you want to capture messages from a specific channel(s)/server and send them to a webhook.
-# Input your guild_id/channel_id/channel_ids/ & webhook_url and run the script.
+# Input your guild_id/channel_id/channel_ids, webhook_url, & token then run the script.
 # Change the on_message event to fit your needs.
 import discord
 from discord.ext import commands
