@@ -24,7 +24,7 @@ My very own documentation for beginners trying to learn about self botting, as s
 ## Classes
 
 **[discord.Message](Docs/Classes/Message.md)** <br>
-**[discord.Conetxt](Docs/Classes/Context.md)** <br>
+**[discord.Context](Docs/Classes/Context.md)** <br>
 **[discord.Component](Docs/Classes/Component.md)** <br>
 **[discord.Modal](Docs/Classes/Modal.md)**
 
