@@ -15,7 +15,7 @@ My very own documentation for beginners trying to learn about self botting, as s
 <br>
 **Keep in mind, if you try to run some of the code, it won't always work since they are examples** <br>
 <br>
-**If you were wondering how discord.py-self or even discord.py works, they're called API wrappers, your token has an authorization specifically to your account and discord.com/api/v{#} is the url to which controls the different things of your account whether it's your user or the guilds you're in. API wrappers make it more straightforward to control that account, for example, if you wanted to send a message, you'd have to make your own definition for sending the message using your authorization and the api link, so you might as well use an already made wrapper, *shrug* **
+**If you were wondering how discord.py-self or even discord.py works, they're called API wrappers, your token has an authorization specifically to your account and discord.com/api/v{#} is the url to which controls the different things of your account whether it's your user or the guilds you're in. API wrappers make it more straightforward to control that account, for example, if you wanted to send a message, you'd have to make your own definition for sending the message using your authorization and the api link, so you might as well use an already made wrapper, *shrug***
 
 ## Starting your first bot
 
